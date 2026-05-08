@@ -1,0 +1,22 @@
+ *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    display: flex;
+    flex-direction: wrap;
+    align-content: normal;
+    width: 200px;
+    height: 200px;
+}
+.box div{
+    width: 50px;
+}
+.box div:nth-child(even){
+     background-color: blue;
+}
+.box div:nth-child(odd){
+     background-color: red;
+}
+

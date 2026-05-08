@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box div:first-child{
+    width: 500px;
+    background-color: green;
+    flex-grow: 1;
+
+}
+.box div:last-child(even){
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+.shrink{
+    display: flex;
+    flex-shrink: 1;
+}
+.shrink div{
+    width: 200px;
+    background-color: red;
+}
+.shrink div:first-child{
+    background-color: yellow;
+    flex-shrink: 1;
+}
+.shrink div:last-child{
+    background-color: blue;
+    flex-shrink: 2;
+}
+.flex-inicio{
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.flex-inicio div{
+    background-color: aqua;
+}
+.flex-inicio div:first-child{
+    background-color: orchid;
+}
+.flex-inicio div:last-child{
+    background-color: aqua;
+}
+.flex-Final{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.flex-Final div{
+    background-color: aqua;
+}
+.flex-Final div:first-child{
+    background-color: orchid;
+}
+.flex-Final div:last-child{
+    background-color: aqua;
+}
+.flex-central{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+.flex-central div{
+    background-color: aqua;
+}
+.flex-central div:first-child{
+    background-color: orchid;
+}
+.flex-central div:last-child{
+    background-color: aqua;
+}
+.flex-between{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.flex-between div{
+    background-color: aquamarine;
+}
+.flex-between div:first-child{
+    background-color: yellow;
+}
+.flex-between div:last-child{
+    background-color: yellow;
+}
+.flex-around{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.flex-around div{
+    background-color: aquamarine;
+}
+.flex-around div:first-child{
+    background-color: yellow;
+}
+.flex-around div:last-child{
+    background-color: yellow;
+}
