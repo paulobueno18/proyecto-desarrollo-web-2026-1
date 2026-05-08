@@ -6,7 +6,7 @@
 .box{
     display: flex;
     flex-direction: wrap;
-    align-content: normal;
+    align-items: baseline;
     width: 200px;
     height: 200px;
 }
