@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: 100%;
+    padding: 15px;
+}
+.card{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+@media (max-width: 768px) {
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        color: yellow; /* Opcional: cambio visual para tablets, puedes elegir el color que prefieras */
+    }
+}
+
+@media (max-width: 1024px) {
+    .container{
+        grid-template-columns: repeat(4, 1fr); /* 1 sola columna para smartphones */
+    }
+    .card{
+        color: white; /* Volvemos al color base o el que prefieres*/
+        background-color: rgb(30, 113, 182);
+    }
+}

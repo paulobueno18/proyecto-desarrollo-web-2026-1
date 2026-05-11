@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    width: 200px;
+    height: 300px;
+    background-color: #c83232;
+    border-top-left-radius: 40px;
+    box-shadow: 5px 3px rgba(0, 0, 0, 0.12);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+}
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    min-height: 100vh;
+    padding: 20px;
+}
+.hero-text h1 {
+    font-size: 3rem;
+    color: #333;
+    line-height: 1.1;
+    max-width: 320px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 360px;
+    height: 420px;
+    padding: 30px;
+    background-color: #c83232;
+    border-radius: 40px;
+    /* ejemplo 1 */
+    box-shadow: 9px 10px ;
+    /* ejemplo 2 */
+    box-shadow: inset 0 0 30px black;
+    /*ejemplo 3*/
+    box-shadow: 0 0 30px blueviolet;
+    /*ejemplo 4 */
+    box-shadow: 
+        10px 10px 10px 10px black,
+        -10px -10px blueviolet;
+}
+.title {
+    color: #f7f3f3;
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    /* ejemplo 1 */
+    text-shadow: 10px 10px blueviolet;
+    /* ejemplo 2*/
+    text-shadow: 10px 10px rgb(0, 255, 106);
+    /* ejemplo 3 */
+    text-shadow: 
+    10px 10px 10px rgb(25, 0, 255),
+    0 10px;
+    /* ejemplo 4*/
+    text-shadow:  10px 10px rgb(255, 0, 179),
+    0 10px;
+    /* ejemplo 5 */
+    text-shadow:  10px 10px rgb(255, 213, 0),
+    0 10px yellow,
+    -160px 0 black;
+
+
+
+}
+.css-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 180px;
+    background-color: #d6e89d;
+    border-radius: 40px;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.4);
+}
+.css-box span {
+    color: #b21f1f;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', serif;
+}
+@media (max-width: 780px) {
+    .page {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .hero-text h1 {
+        text-align: center;
+    }
+}
