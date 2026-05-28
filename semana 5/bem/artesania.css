@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.artesania{
+    width: 380px;
+    max-width: 95%;
+    margin: 20px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+    background-color: white;
+}
+.artesania--featured {
+    border: 3px solid #0077ff
+}
+.artesania__image {
+    width: 100%;
+    display: block;
+}
+.artesania__title{
+    font-size: 22px;
+    margin: 8px 0;
+}
+.artesania__body {
+    padding: 20px;
+}
+.artesania__description {
+    text-align: justify;
+    color: gray;
+    margin-bottom: 15px;
+}
+.artesania__precio {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.artesania__button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;    
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+.artesania__button--enroll {
+    background-color: #0077ff;
+    color: white;
+}
+.artesania__button--enroll:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+}
