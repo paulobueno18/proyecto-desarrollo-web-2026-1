@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Inicio de busqueda</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="container">
+
+        <h2>Columnas</h2>
+        <div class="row">
+            <div class="col oscuro">1ra columna</div>
+            <div class="col claro">2da columna</div>
+            <div class="col oscuro">3ra columna</div>
+            <div class="col claro">4ta columna</div>
+        </div>
+
+        <hr>
+
+        <h2>Columnas definidas</h2>
+        <div class="row">
+            <div class="col-5 claro">Columna de 5</div>
+            <div class="col-7 oscuro">Columna de 7</div>
+        </div>
+
+        <hr>
+
+        <h2>Columnas responsivas</h2>
+
+        <h3><code>col-xl-#</code></h3>
+        <h5>xl &rarr; las columnas colapsan si el ancho disponible es menor a 1200px</h5>
+        <div class="row">
+            <div class="col-xl-8 oscuro">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti amet cum
+                vel ad, nulla.
+            </div>
+            <div class="col-xl-4 claro">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta rem enim?
+            </div>
+        </div>
+
+        <hr>
+
+        <h3><code>col-sm-#</code></h3>
+        <h5>sm &rarr; las columnas colapsan si el ancho disponible es menor a 576px</h5>
+        <div class="row">
+            <div class="col-sm-3 oscuro">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti amet cum
+                vel ad, nulla.
+            </div>
+            <div class="col-sm-9 claro">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta rem enim?
+            </div>
+        </div>
+
+        <hr>
+
+        <h3><code>col-lg-#</code></h3>
+        <h5>lg &rarr; las columnas colapsan si el ancho disponible es menor a 992px</h5>
+        <div class="row">
+            <div class="col-lg-4 oscuro">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti amet cum
+                vel ad, nulla.
+            </div>
+            <div class="col-lg-4 claro">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta rem enim?
+            </div>
+            <div class="col-lg-4 oscuro">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta rem enim?
+            </div>
+        </div>
+
+        <hr>
+
+        <h3><code>col-md-#</code></h3>
+        <h5>md &rarr; las columnas colapsan si el ancho disponible es menor a 768px</h5>
+        <div class="row">
+            <div class="col-md-6 oscuro">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti amet cum
+                vel ad, nulla.
+            </div>
+            <div class="col-md-6 claro">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta rem enim?
+            </div>
+        </div>
+
+        <hr>
+
+        <h2>Columnas responsivas combinadas</h2>
+        <h5>Combinando las clases previamente vistas, podemos indicar que la "col" ocupe distintas
+        cantidades de columnas en diferentes medidas (breakpoints)</h5>
+        <div class="row">
+            <div class="col-xl-7 col-lg-12 oscuro">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci officiis hic
+                explicabo nesciunt ducimus culpa.
+            </div>
+            <div class="col-xl-3 col-lg-8 col-md-6 col-sm-12 claro">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci officiis hic
+                explicabo nesciunt ducimus culpa.
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 oscuro">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci officiis hic
+                explicabo nesciunt ducimus culpa.
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
